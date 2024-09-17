@@ -4,10 +4,14 @@ const Navbar  = () => {
             <h1>Minks Lab</h1>
             <div className="links">
                 <a href="/">Home</a>
-                <a href="/create">New Lab</a>
+                <a href="/create" style={{
+                    color: "white",
+                    backgroundColor: '#f1356d',
+                    borderRadius: '8px'
+                }}>New Lab</a>
             </div>
         </nav>
      );
 }
  
-export default Navbar  
+export default Navbar;
