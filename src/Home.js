@@ -1,7 +1,7 @@
 const Home = () => {
 
   const handleClick = () => {
-    console.log
+    console.log('hello,');
   }
     return (
         <div className="home">
