@@ -3,6 +3,10 @@ const Home = () => {
   const handleClick = () => {
     console.log('hello,');
   }
+
+  const handleClickAgain = () => {
+    
+  }
     return (
         <div className="home">
            <h2>Homepage</h2> 
