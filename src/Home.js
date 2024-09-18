@@ -1,6 +1,8 @@
 const Home = () => {
 
-  const handleClick =
+  const handleClick = () => {
+    console.log
+  }
     return (
         <div className="home">
            <h2>Homepage</h2> 
