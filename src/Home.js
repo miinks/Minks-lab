@@ -5,13 +5,13 @@ const Home = () => {
   }
 
   const handleClickAgain = (name, e) => {
-    console.log('hello ' + name);
+    console.log('hello ' + name, e.target);
   }
     return (
         <div className="home">
            <h2>Homepage</h2> 
            <button onClick={handleClick}>Click Me</button>
-           <button onClick={()=> handleClickAgain('Minks')}>Click Me Again</button>
+           <button onClick={()=> handleClickAgain('Minks', e)}>Click Me Again</button>
         </div>
       );
 }
