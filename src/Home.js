@@ -11,9 +11,6 @@ const Home = () => {
     setAge(30);
   }
 
-  const handleClick = () => {
-    console.log('hello ' + name, e.target);
-  }
     return (
         <div className="home">
            <h2>Homepage</h2> 
