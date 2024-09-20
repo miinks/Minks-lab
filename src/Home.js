@@ -2,6 +2,8 @@ import { useState } from "react";
 
 
 const Home = () => {
+  const [name, setName] = useState('mario');
+
 
   const handleClick = (e) => {
     console.log('Hello,');
