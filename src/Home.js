@@ -11,13 +11,13 @@ const Home = () => {
     setAge(30);
   }
 
-    return (
-        <div className="home">
-           <h2>Homepage</h2> 
-           <button onClick={handleClick}>Click Me</button>
-           <button onClick={()=> handleClickAgain('Minks', e)}>Click Me Again</button>
-        </div>
-      );
+  return (
+    <div className="home">
+      <h2>Homepage</h2>
+      <p>{ name } is { age } years old</p>
+      <button onClick={handleClick}>Click me</button>
+    </div>
+  );
 }
  
 export default Home;
