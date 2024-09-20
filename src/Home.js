@@ -10,7 +10,7 @@ const Home = () => {
     console.log('Hello,');
   }
 
-  const handleClickAgain = (name, e) => {
+  const handleClick = () => {
     console.log('hello ' + name, e.target);
   }
     return (
