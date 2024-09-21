@@ -2,6 +2,8 @@ import { useState } from "react";
 
 
 const Home = () => {
+  const [blogs, setBlogs] = useState([
+
   const [name, setName] = useState('mario');
   const [age, setAge] = useState(25);
 
