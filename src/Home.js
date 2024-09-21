@@ -11,8 +11,9 @@ const Home = () => {
   return (
     <div className="home">
       <div className="blog-preview" key={blog.id} >      <p>{ name } is { age } years old</p>
-      <button onClick={handleClick}>Click me</button>
-    </div>
+      <h2>{ blog.title }</h2>
+      
+        </div>
   );
 }
  
