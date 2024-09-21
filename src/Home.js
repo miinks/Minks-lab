@@ -12,7 +12,8 @@ const Home = () => {
     <div className="home">
       <div className="blog-preview" key={blog.id} >      <p>{ name } is { age } years old</p>
       <h2>{ blog.title }</h2>
-      
+      <p>Written by { blog.author }</p>
+
         </div>
   );
 }
