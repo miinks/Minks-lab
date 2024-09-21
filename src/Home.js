@@ -3,6 +3,8 @@ import { useState } from "react";
 
 const Home = () => {
   const [blogs, setBlogs] = useState([
+    { title: 'My new website', body: 'lorem ipsum...', author: 'mario', id: 1 },
+
 
   const [name, setName] = useState('mario');
   const [age, setAge] = useState(25);
