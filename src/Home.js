@@ -10,8 +10,7 @@ const Home = () => {
 
   return (
     <div className="home">
-      <h2>Homepage</h2>
-      <p>{ name } is { age } years old</p>
+      <div className="blog-preview" key={blog.id} >      <p>{ name } is { age } years old</p>
       <button onClick={handleClick}>Click me</button>
     </div>
   );
